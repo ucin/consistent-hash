@@ -4,7 +4,7 @@
 
 This is an implementation for consistent hashing in C#.
 
-The goal is to implement a high-performance and easy-use consistent hashing.
+The goal is to implement a high-performance and easy-to-use consistent hashing.
 
 = Details =
 

@@ -85,12 +85,12 @@ namespace ConsistentHash
 
 		//it's better you override the GetHashCode() of T.
 		//we will use GetHashCode() to identify different node.
-		public void Init(List<T> nodes)
+		public void Init(IEnumerable<T> nodes)
 		{
 			Init(nodes, _replicate);
 		}
 
-		public void Init(List<T> nodes, int replicate)
+		public void Init(IEnumerable<T> nodes, int replicate)
 		{
 			_replicate = replicate;
 

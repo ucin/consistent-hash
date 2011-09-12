@@ -142,7 +142,7 @@ namespace ConsistentHash
 				return circle[hash];
 			}
 
-			int first = circle.Keys.FirstOrDefault(h => h > hash);
+			int first = circle.Keys.FirstOrDefault(h => h >= hash);
 			if (first == new int())
 			{
 				first = ayKeys[0];

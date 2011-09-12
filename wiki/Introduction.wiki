@@ -1,8 +1,8 @@
-#summary One-sentence summary of this page.
-
-This is an implementation for consistent hashing in C#.
+#summary briefing
 
 = Introduction =
+
+This is an implementation for consistent hashing in C#.
 
 The goal is to implement a high-performance and easy-use consistent hashing.
 

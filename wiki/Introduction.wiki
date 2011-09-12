@@ -8,7 +8,6 @@ The goal is to implement a high-performance and easy-use consistent hashing.
 
 = Details =
 
-Add your content here.  Format your content with:
   * _the class is totally independent, you can just copy and use_
   * _use murmur hash for better spread_
   * _create an ordered cache for keys_
